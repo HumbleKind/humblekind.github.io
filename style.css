@@ -8,6 +8,10 @@ body {
   /* background: transparent !important; */
 }
 
+.nav-link:hover {
+	color: #eece1a !important;
+}
+
 main {
 	padding: 2rem;
 }
@@ -35,6 +39,7 @@ main {
 
 a {
 	padding: 0.5rem;
+	text-decoration: none;
 }
 
 a:link, a:visited {
@@ -50,12 +55,25 @@ a:hover {
 	font-size: medium;
 }
 
+/* remove card padding left & right */
+.row>* {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
 .card {
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.65;
 	margin: 1rem;
 }
 
+.card-text {
+	height: 50px;
+	overflow-x: scroll;
+	width: 100%;
+}
+
 .btn {
+	opacity: 0.65;
 	color: white !important;
 }

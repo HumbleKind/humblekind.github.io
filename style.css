@@ -1,0 +1,61 @@
+body {
+  background: url(./assets/background.jpeg);
+	background-size: cover;
+	color: white;
+}
+
+.navbar {
+  /* background: transparent !important; */
+}
+
+main {
+	padding: 2rem;
+}
+
+#home, h1 {
+	margin-top: 20vh;
+}
+
+.lg-heading {
+	margin-top: 1rem;
+	font-size: 5rem;
+}
+
+.heading-secondary {
+	color: #eece1a;
+}
+
+.sm-heading {
+	font-weight: lighter;
+}
+
+.icons {
+	margin-top: 1rem;
+}
+
+a {
+	padding: 0.5rem;
+}
+
+a:link, a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: #eece1a;
+	transition: all 0.5s ease-out;
+}
+
+.mobile {
+	font-size: smaller;
+}
+
+.card {
+	background-color: black;
+	opacity: 0.6;
+	margin: 1rem;
+}
+
+.btn {
+	color: white !important;
+}

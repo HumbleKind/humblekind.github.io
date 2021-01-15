@@ -1,6 +1,9 @@
 body {
-  background: url(./assets/background.jpeg);
-	background-size: cover;
+	background: url(./assets/background.jpeg) no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	color: white;
 }
 
@@ -52,16 +55,18 @@ a:hover {
 }
 
 .email {
+	margin-bottom: 1rem;
 	opacity: 0.7;
 }
 
 .mobile {
 	padding-left: 1rem;
 	font-size: medium;
+	font-weight: bolder;
 }
 
 /* remove card padding left & right */
-.row>* {
+.row > * {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }

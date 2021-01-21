@@ -74,7 +74,7 @@ a:hover {
 .frame {
 	margin: 1rem;
 	width: 19rem;
-	height: 28rem;
+	height: auto;
 }
 
 .image {

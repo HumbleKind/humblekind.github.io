@@ -1,14 +1,18 @@
 body {
-	background: url(./assets/background.jpeg) no-repeat center fixed;
+	background: url(./assets/background.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: white;
 }
 
 .navbar {
-  /* background: transparent !important; */
+  	background: transparent !important;
+}
+
+.navbar-brand {
+	margin-left: 1rem;
 }
 
 .nav-link:hover {

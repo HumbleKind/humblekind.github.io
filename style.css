@@ -8,11 +8,11 @@ body {
 }
 
 .navbar {
-  	background: transparent !important;
+  	/* background: transparent !important; */
 }
 
 .navbar-brand {
-	margin-left: 1rem;
+	/* margin-left: 1rem; */
 }
 
 .nav-link:hover {

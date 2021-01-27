@@ -1,4 +1,4 @@
-# HumbleKind Portfolio
+# Portfolio
 
 ## Description
 From teaching myself how to code and build sites from scratch in the early 90s, I'm finally coming full circle! Along the way, earned a BS in Biochemistry, a Masters of Architecture, and launched a tech startup.
